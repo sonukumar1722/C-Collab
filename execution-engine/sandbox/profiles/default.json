@@ -1,0 +1,21 @@
+{
+  "max_execution_time": 30,
+  "max_memory_mb": 512,
+  "max_output_size": 1048576,
+  "allow_network": false,
+  "allow_filesystem_write": false,
+  "allowed_syscalls": [
+    "read",
+    "write",
+    "open",
+    "close",
+    "stat",
+    "fstat",
+    "lstat",
+    "brk",
+    "mmap",
+    "munmap",
+    "exit",
+    "exit_group"
+  ]
+}
