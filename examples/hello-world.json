@@ -1,0 +1,65 @@
+{
+  "title": "Hello World - C++",
+  "description": "A simple Hello World program demonstrating basic C++ output",
+  "language": "cpp",
+  "compiler": "gcc-12",
+  "compilerFlags": "-std=c++17 -Wall -Wextra",
+  "cells": [
+    {
+      "id": "cell-1",
+      "type": "markdown",
+      "position": 0,
+      "content": "# Hello World in C++\n\nThis is the classic first program that prints \"Hello, World!\" to the console.\n\n## What You'll Learn\n\n- Basic C++ program structure\n- Using the iostream library\n- The `main()` function\n- Standard output with `std::cout`"
+    },
+    {
+      "id": "cell-2",
+      "type": "code",
+      "position": 1,
+      "content": "#include <iostream>\n\nint main() {\n    std::cout << \"Hello, World!\" << std::endl;\n    return 0;\n}"
+    },
+    {
+      "id": "cell-3",
+      "type": "markdown",
+      "position": 2,
+      "content": "## Explanation\n\n1. **`#include <iostream>`** - Includes the Input/Output stream library\n2. **`int main()`** - The entry point of every C++ program\n3. **`std::cout`** - Standard output stream (console)\n4. **`<<`** - Stream insertion operator\n5. **`std::endl`** - End line (adds newline and flushes buffer)\n6. **`return 0`** - Indicates successful program termination"
+    },
+    {
+      "id": "cell-4",
+      "type": "markdown",
+      "position": 3,
+      "content": "## Try It Yourself\n\nModify the code above to:\n- Print your name\n- Print multiple lines\n- Use `\\n` instead of `std::endl`"
+    },
+    {
+      "id": "cell-5",
+      "type": "code",
+      "position": 4,
+      "content": "#include <iostream>\n\nint main() {\n    std::cout << \"Hello, \" << \"World!\" << std::endl;\n    std::cout << \"Welcome to C-Collab!\" << std::endl;\n    return 0;\n}"
+    },
+    {
+      "id": "cell-6",
+      "type": "markdown",
+      "position": 5,
+      "content": "## Alternative: Using namespace std\n\nYou can avoid writing `std::` by using the `using namespace std;` directive:"
+    },
+    {
+      "id": "cell-7",
+      "type": "code",
+      "position": 6,
+      "content": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello, World!\" << endl;\n    return 0;\n}"
+    },
+    {
+      "id": "cell-8",
+      "type": "markdown",
+      "position": 7,
+      "content": "## Next Steps\n\n- Learn about variables and data types\n- Explore input with `std::cin`\n- Try different output formats\n\nGreat job completing your first C++ program! 🎉"
+    }
+  ],
+  "tags": ["beginner", "tutorial", "hello-world", "cpp", "basics"],
+  "isPublic": true,
+  "metadata": {
+    "author": "C-Collab Team",
+    "difficulty": "beginner",
+    "estimatedTime": "5 minutes",
+    "prerequisites": []
+  }
+}
