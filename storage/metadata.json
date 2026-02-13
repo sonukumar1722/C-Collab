@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "storage_type": "local",
+  "base_path": "./storage/local",
+  "notebooks_path": "./storage/local/notebooks",
+  "uploads_path": "./storage/local/uploads",
+  "max_file_size": 10485760,
+  "allowed_extensions": [".c", ".cpp", ".h", ".hpp", ".txt"],
+  "created_at": "2024-01-01T00:00:00Z"
+}

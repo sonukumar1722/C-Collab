@@ -1,0 +1,13 @@
+{
+  "max_execution_time": 10,
+  "max_memory_mb": 256,
+  "max_output_size": 524288,
+  "allow_network": false,
+  "allow_filesystem_write": false,
+  "allowed_syscalls": [
+    "read",
+    "write",
+    "exit",
+    "exit_group"
+  ]
+}
